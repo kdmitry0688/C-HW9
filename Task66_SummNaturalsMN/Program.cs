@@ -18,4 +18,4 @@ int SummNaturalNumbers(int start, int finish)
 }
 int numStart = InputNum("Введите M: ");
 int numFinish = InputNum("Введите N: ");
-Console.WriteLine(SummNaturalNumbers(numStart, numFinish));
+Console.WriteLine("Сумма натуральных элементов: " + SummNaturalNumbers(numStart, numFinish));
